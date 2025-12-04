@@ -30,3 +30,26 @@ build/
 # Sistema
 *.pid
 *.seed
+
+# Archivos específicos de Windows
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Archivos de fotos/editores
+*.psd
+*.ai
+*.sketch
+
+# Archivos comprimidos
+*.zip
+*.rar
+*.7z
+
+# Archivos de bases de datos
+*.sql
+*.sqlite
+
+# Archivos de configuración local
+config.local.*
