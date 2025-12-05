@@ -1,0 +1,404 @@
+# Crear servicios.html con contenido completo
+cat > servicios.html << 'EOF'
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios | ServiTécnico Express</title>
+    <meta name="description" content="Servicios de reparación, mantenimiento e instalación de electrodomésticos. Neveras, lavadoras, aires acondicionados.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-tools"></i>
+                    <span>ServiTécnico<span class="logo-highlight">Express</span></span>
+                </a>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html" class="active">Servicios</a></li>
+                    <li><a href="tienda.html">Catálogo</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SERVICIOS -->
+    <section class="services-hero" id="servicios">
+        <div class="container">
+            <h1>Nuestros <span class="highlight">Servicios</span></h1>
+            <p class="subtitle">Especialistas en electrodomésticos de todas las marcas</p>
+        </div>
+    </section>
+
+    <!-- SERVICIOS DESTACADOS -->
+    <section class="services-detail">
+        <div class="container">
+            <!-- NEVERAS -->
+            <div class="service-category" id="neveras">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <h2>Reparación de Neveras y Congeladores</h2>
+                    <p class="category-subtitle">Soluciones para problemas de refrigeración</p>
+                </div>
+                
+                <div class="service-problems">
+                    <h3>Problemas Comunes que Resolvemos:</h3>
+                    <div class="problems-grid">
+                        <div class="problem-card">
+                            <h4><i class="fas fa-thermometer-half"></i> No Enfría</h4>
+                            <ul>
+                                <li>Compresor dañado</li>
+                                <li>Gas refrigerante bajo</li>
+                                <li>Termostato defectuoso</li>
+                                <li>Ventilador del evaporador</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="problem-card">
+                            <h4><i class="fas fa-tint"></i> Formación de Hielo</h4>
+                            <ul>
+                                <li>Problemas de descongelado</li>
+                                <li>Resistencia de descongelado</li>
+                                <li>Timer de descongelado</li>
+                                <li>Sensores de temperatura</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="problem-card">
+                            <h4><i class="fas fa-volume-up"></i> Ruidos Extraños</h4>
+                            <ul>
+                                <li>Compresor con fallas</li>
+                                <li>Ventiladores obstruidos</li>
+                                <li>Componentes sueltos</li>
+                                <li>Problemas mecánicos</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="problem-card">
+                            <h4><i class="fas fa-exclamation-triangle"></i> Otros Problemas</h4>
+                            <ul>
+                                <li>Fugas de agua</li>
+                                <li>Puertas que no cierran</li>
+                                <li>Iluminación interior</li>
+                                <li>Paneles de control</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-process">
+                    <h3>Nuestro Proceso de Reparación:</h3>
+                    <div class="process-steps">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Diagnóstico Preciso</h4>
+                                <p>Evaluamos la falla con equipos especializados para identificar el problema exacto.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Presupuesto Transparente</h4>
+                                <p>Te presentamos un presupuesto detallado con costos de mano de obra y repuestos.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Reparación Profesional</h4>
+                                <p>Utilizamos repuestos originales o de alta calidad y técnicas certificadas.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Pruebas y Garantía</h4>
+                                <p>Probamos el funcionamiento y otorgamos garantía por escrito en mano de obra.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- LAVADORAS -->
+            <div class="service-category" id="lavadoras">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h2>Reparación de Lavadoras y Secadoras</h2>
+                    <p class="category-subtitle">Soluciones para problemas de lavado y centrifugado</p>
+                </div>
+                
+                <div class="service-features">
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <i class="fas fa-cog"></i>
+                            <h4>Problemas Mecánicos</h4>
+                            <p>Transmisiones, rodamientos, amortiguadores, poleas, correas.</p>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <i class="fas fa-tint"></i>
+                            <h4>Problemas de Agua</h4>
+                            <p>Fugas, válvulas de entrada, bombas de desagüe, mangueras.</p>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <i class="fas fa-bolt"></i>
+                            <h4>Problemas Eléctricos</h4>
+                            <p>Tarjetas electrónicas, motores, sensores, cableado, interruptores.</p>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <i class="fas fa-exclamation-circle"></i>
+                            <h4>Problemas de Funcionamiento</h4>
+                            <p>No centrifuga, no lava, no desagua, errores en pantalla.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-benefits">
+                    <h3>Beneficios de Nuestro Servicio:</h3>
+                    <div class="benefits-list">
+                        <div class="benefit">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Servicio Rápido</h4>
+                                <p>Reparación en el mismo día para la mayoría de problemas comunes.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="benefit">
+                            <i class="fas fa-user-check"></i>
+                            <div>
+                                <h4>Técnicos Certificados</h4>
+                                <p>Especialistas con certificación en todas las marcas principales.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="benefit">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Garantía Incluida</h4>
+                                <p>3 meses de garantía en mano de obra para todas las reparaciones.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="benefit">
+                            <i class="fas fa-tools"></i>
+                            <div>
+                                <h4>Repuestos Garantizados</h4>
+                                <p>Usamos repuestos originales o de marcas reconocidas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- MANTENIMIENTO -->
+            <div class="service-category" id="mantenimiento">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-toolbox"></i>
+                    </div>
+                    <h2>Mantenimiento Preventivo</h2>
+                    <p class="category-subtitle">Evite reparaciones costosas con mantenimiento regular</p>
+                </div>
+                
+                <div class="maintenance-plans">
+                    <div class="plan-card">
+                        <h3 class="plan-title">Mantenimiento Básico</h3>
+                        <div class="plan-price">Desde $120.000</div>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check"></i> Limpieza interna completa</li>
+                            <li><i class="fas fa-check"></i> Revisión de componentes</li>
+                            <li><i class="fas fa-check"></i> Lubricación de partes móviles</li>
+                            <li><i class="fas fa-check"></i> Pruebas de funcionamiento</li>
+                            <li><i class="fas fa-check"></i> Diagnóstico general</li>
+                        </ul>
+                        <a href="contacto.html" class="btn btn-primary">Solicitar Mantenimiento</a>
+                    </div>
+                    
+                    <div class="plan-card featured">
+                        <div class="plan-badge">Recomendado</div>
+                        <h3 class="plan-title">Mantenimiento Completo</h3>
+                        <div class="plan-price">Desde $180.000</div>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check"></i> Todo lo del plan básico</li>
+                            <li><i class="fas fa-check"></i> Calibración de sensores</li>
+                            <li><i class="fas fa-check"></i> Revisión eléctrica profunda</li>
+                            <li><i class="fas fa-check"></i> Limpieza de condensador</li>
+                            <li><i class="fas fa-check"></i> Garantía de 6 meses</li>
+                            <li><i class="fas fa-check"></i> Reporte técnico detallado</li>
+                        </ul>
+                        <a href="contacto.html" class="btn btn-primary">Solicitar Mantenimiento</a>
+                    </div>
+                    
+                    <div class="plan-card">
+                        <h3 class="plan-title">Plan Anual</h3>
+                        <div class="plan-price">Desde $450.000/año</div>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check"></i> 2 mantenimientos completos anuales</li>
+                            <li><i class="fas fa-check"></i> Prioridad en servicio</li>
+                            <li><i class="fas fa-check"></i> Descuento en repuestos</li>
+                            <li><i class="fas fa-check"></i> Diagnóstico gratuito</li>
+                            <li><i class="fas fa-check"></i> Soporte telefónico 24/7</li>
+                        </ul>
+                        <a href="contacto.html" class="btn btn-primary">Solicitar Información</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- OTROS EQUIPOS -->
+            <div class="service-category" id="otros">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h2>Otros Electrodomésticos</h2>
+                    <p class="category-subtitle">Reparamos una amplia gama de equipos para el hogar</p>
+                </div>
+                
+                <div class="other-appliances">
+                    <div class="appliance-card">
+                        <div class="appliance-icon">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <h4>Aires Acondicionados</h4>
+                        <p>Split, ventana, portátiles. Recarga de gas, limpieza, reparación.</p>
+                    </div>
+                    
+                    <div class="appliance-card">
+                        <div class="appliance-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <h4>Estufas y Hornos</h4>
+                        <p>Eléctricas, a gas, vitrocerámicas, microondas, hornos eléctricos.</p>
+                    </div>
+                    
+                    <div class="appliance-card">
+                        <div class="appliance-icon">
+                            <i class="fas fa-blender"></i>
+                        </div>
+                        <h4>Pequeños Electrodomésticos</h4>
+                        <p>Licuadoras, batidoras, cafeteras, extractores, tostadoras.</p>
+                    </div>
+                    
+                    <div class="appliance-card">
+                        <div class="appliance-icon">
+                            <i class="fas fa-tv"></i>
+                        </div>
+                        <h4>Electrónica del Hogar</h4>
+                        <p>Televisores, equipos de sonido, sistemas de entretenimiento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LLAMADO A LA ACCIÓN -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Necesitas Reparar tu Electrodoméstico?</h2>
+                <p>Contáctanos ahora para un diagnóstico gratuito y presupuesto sin compromiso.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/573001234567?text=Hola,%20necesito%20servicio%20técnico%20para%20mi%20electrodoméstico" 
+                       class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Rápido
+                    </a>
+                    <a href="tel:+573001234567" class="btn btn-primary">
+                        <i class="fas fa-phone"></i> Llamar Ahora
+                    </a>
+                    <a href="contacto.html" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Enviar Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3><i class="fas fa-tools"></i> ServiTécnico<span>Express</span></h3>
+                    <p>Especialistas en reparación y mantenimiento de electrodomésticos con más de 10 años de experiencia.</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/573001234567" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="servicios.html#neveras">Neveras y Congeladores</a></li>
+                        <li><a href="servicios.html#lavadoras">Lavadoras y Secadoras</a></li>
+                        <li><a href="servicios.html#mantenimiento">Mantenimiento Preventivo</a></li>
+                        <li><a href="servicios.html#otros">Otros Electrodomésticos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+573001234567">+57 300 123 4567</a></li>
+                        <li><i class="fas fa-envelope"></i> servicio@servitecnicoexpress.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Ciudad, Dirección principal</li>
+                        <li><i class="fas fa-clock"></i> Lunes a Sábado: 8am - 6pm</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="tienda.html">Catálogo</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 ServiTécnicoExpress. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WHATSAPP FLOATING BUTTON -->
+    <a href="https://wa.me/573001234567?text=Hola,%20necesito%20información%20sobre%20servicios%20técnicos" 
+       class="whatsapp-float" target="_blank" aria-label="Consultar servicios por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+EOF
